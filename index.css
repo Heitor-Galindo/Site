@@ -1,0 +1,55 @@
+h1 { 
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 3.75rem;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 2.25rem;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    font-family: Ubuntu;
+    line-height: 30px;
+    font-size: 1.25rem;
+    /*white-space: pre;*/
+}
+
+body {
+    background-color: #333333;
+}
+
+a {
+    text-align: center;
+    color: #12cedb;
+    font-family: Ubuntu;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    width: 219px;
+    height: 219px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.pre {
+    white-space: pre;
+    margin: 0%;
+}
+
+.zero-margin {
+    margin: 0%;
+}

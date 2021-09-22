@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laboratório</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/> 
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    </head>
+
+    <body>
+        <h1>Laboratório DevOps</h1>
+        <h2>Esse site é um laboratório de testes</h2>
+
+        <p>
+            Os arquivos que compoem esse laboratório estão hospedados no
+            <a href="https://github.com/Extars01/Case" target="_blank">GitHub</a><br>
+            o projeto é público e se você quiser ver, fique à vontade.
+        </p>
+
+        <p>
+            Como Infrastructure as a Code, nesse laboratório foram usadas algumas instâncias
+            <a href="https://aws.amazon.com/pt/ec2/instance-types/t2/" target="_black"> EC2 T2</a> da AWS<br>
+            Essas instâncias estão dentro de uma VPC e tem um 
+            <a href="https://docs.aws.amazon.com/pt_br/vpc/latest/userguide/VPC_SecurityGroups.html" target="_blank"> 
+            Security Group</a> configurado<br>
+            somente os seguintes endereços estão acessíveis no momento:<br>
+            <br>
+            IMPLEMENTANDO<br>
+            IMPLEMENTANDO<br>
+            IMPLEMENTANDO<br>
+            <br>
+        </p>
+
+        <p> 
+            O Jenkins é responsável por criar um <a href="https://hub.docker.com/_/nginx" target="_blank">
+            Container Docker NGINX</a> personalizado com os arquivos do GitHub<br>
+            e atualizar a imagem toda vez que o GitHub recebe um commit novo<br>
+            caso você queira acessa-lo use as credenciais abaixo.<br>
+            <br>
+            IMPLEMENTANDO<br>
+            usuário: <br>
+            senha: 
+        </p>
+
+        <p>
+            O pipeline do Jenkins foi escrito em <a href="https://pt.wikipedia.org/wiki/Bash" target="_blank">Bash</a>
+            e <a href="https://www.jenkins.io/doc/pipeline/steps/workflow-cps/" target="_blank"> Groovy</a>
+        </p>
+
+        <h2>Próximas Ferramentas DevOps:</h2>
+            
+        <p>
+            Observabilidade:<br>
+            <a href="https://grafana.com/" target="_blank">Grafana</a><br>
+            <a href="https://prometheus.io/" target="_blank">Prometheus</a><br>
+        </p>
+        
+        <p>
+            Automação:<br>
+            <a href="https://www.terraform.io/" target="_blank">Terraform</a><br>
+            <a href="https://www.ansible.com/" target="_blank">Ansible</a><br>
+            <a href="https://kubernetes.io/pt-br/" target="_blank">Kubernetes</a><br>
+        </p>
+
+        <p>
+            CI/CD:<br>
+            <a href="https://about.gitlab.com/" target="_blank">GitLab</a><br>
+        </p>
+
+        <p> Esse site foi construido em HTML e CSS e você pode encontrar o código fonte no GitHub.</P>
+
+        <img src="./image/perfil.jpeg" class="center">
+
+        <h2 class="zero-margin">Heitor A. Galindo</h2>
+        <p class="pre">
+            Experiência na manutenção de hardware e software.
+            Tive a oportunidade de exercer funções de TI no Exército Brasileiro.
+            Também trabalhei na área de infraestrutura e monitoramento de rede.
+            Iniciando minha jornada DevOps.
+        </p>
+
+    </body>
+</html>
